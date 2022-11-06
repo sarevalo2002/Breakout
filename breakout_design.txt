@@ -1,5 +1,3 @@
-# Describe your design for the Breakout assignment here
-
 Attributes:
 brick - The GRect that will be used as the target of the ball
 paddle - A GRect controllable by the user to hit the ball into bricks

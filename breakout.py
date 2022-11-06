@@ -1,8 +1,4 @@
 """
-Stanford CS106AP Breakout Project
-Adapted from Eric Roberts's Breakout by
-Sonja Johnson-Yu, Kylie Jue, and Nick Bowman.
-
 This program utilizes the BreakoutGraphics class to
 create a game reminiscent of 'Breakout'. The game has
 the user control the paddle with their mouse, hitting a ball

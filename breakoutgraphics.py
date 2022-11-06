@@ -1,8 +1,4 @@
 """
-Stanford CS106AP Breakout Project
-Adapted from Eric Roberts's Breakout by
-Sonja Johnson-Yu, Kylie Jue, and Nick Bowman.
-
 This program describes a class that sets up and operates
 a game reminiscent of 'Breakout'. Utilizing user input,
 the game starts with a click and follows a ball that bounces
