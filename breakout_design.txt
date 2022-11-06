@@ -1,0 +1,32 @@
+# Describe your design for the Breakout assignment here
+
+Attributes:
+brick - The GRect that will be used as the target of the ball
+paddle - A GRect controllable by the user to hit the ball into bricks
+ball - A GOval that will be used to break bricks
+vx & vy - Set velocities for the ball
+
+Within Constructor:
+- create the paddle, ball, and bricks
+
+Methods:
+set_ball_position() - sets the ball's starting position
+set_ball_velocity() - sets the ball's velocity (instigate with onmouseclicked)
+reset_ball() - reset's the ball to the starting position when player loses a life
+remove_ball() - removes ball from window when players loses all lives
+move_ball() - moves the ball in the main function
+handle_wall_collisions() - allows the ball to follow physics when hitting a left, right, or top wall
+handle_brick_collision() - allows the ball to follow physics and break a brick when the two collide
+handle_paddle_collision() - allows the ball to follow physics and bounce off the paddle
+check_for_collision() - creates a boolean to check if the ball has collided with a brick, paddle, or nothing
+handle_click() - handles the click that causes the game to start
+handle_move() - handles the movement of the paddle at the center of the user's cursor (onmousemoved)
+
+Possible Extensions:
+- Add method get_ball_score() using an attribute score to display a score under the paddle and raise it by a certain
+amount whenever a certain brick is broken
+- Add in the kicker when the count reaches a certain number (-7 from orig?) by changing the velocity by * 2
+- Add more user control by making inverting the velocity of the x value in addition to the y value based on
+which half of the paddle the ball was hit
+- Create a main menu with game modes ('Classic', 'Speed-Run', 'Directional', 'Full-Board?')?
+- Create blocks with special properties (silver ones take longer to break,
